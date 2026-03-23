@@ -941,9 +941,9 @@ function StaffSection({ profiles, setProfiles, orgSlug, onViewProfile, profileSt
               { name: 'twitterUrl', placeholder: 'Twitter URL' },
               { name: 'tiktokUrl', placeholder: 'TikTok URL' },
               { name: 'youtubeUrl', placeholder: 'YouTube URL' },
-              { name: 'whatsappUrl', placeholder: 'WhatsApp URL' },
+              // { name: 'whatsappUrl', placeholder: 'WhatsApp URL' },
               { name: 'websiteUrl', placeholder: 'Website URL' },
-              { name: 'profilePictureUrl', placeholder: 'Profile Picture URL' },
+              // { name: 'profilePictureUrl', placeholder: 'Profile Picture URL' },
             ].map(f => (
               <input key={f.name} name={f.name} placeholder={f.placeholder}
                 value={(form as any)[f.name]} onChange={handleChange} className="form-input" />

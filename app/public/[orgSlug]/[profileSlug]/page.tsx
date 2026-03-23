@@ -551,7 +551,7 @@ export default function PublicProfilePage({ params }: { params: Params }) {
               )}
             </div>
 
-            <p className="powered">Powered by <span>Digital Cards</span></p>
+            <p className="powered">Powered by <span>Small Digital</span></p>
           </div>
         </div>
       </div>
